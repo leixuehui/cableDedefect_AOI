@@ -1,0 +1,89 @@
+
+struct PosStatus
+{
+    float lastPos[maxCameraNum];
+    float loss;
+    float diffLoss;
+
+	float nNoCable[noCableLimit];    //leon
+	int   nCurBlack;
+};
+
+struct DirectArray
+{
+    int direct[nDirect];
+    int nCur;
+};
+
+private:
+    PosStatus posStatus;
+    float pos[256];
+    DirectArray directs;
+    int nCurFrame;
+	int nCurNoCable_;
+	
+	
+	//*******************************************
+	directs.direct[directs.nCur] = direct;
+
+	int _directSum = 0;
+	for(int i = 0; i < nDirect; i++)       
+	{
+		_directSum += directs.direct[i];
+	}
+	if(_directSum)
+	
+	directs.nCur = (directs.nCur + 1) % nDirect;
+	
+	//*****************************************************
+	
+	typedef struct {
+    int x;
+    int y;
+    int width;
+    int height;
+    } IppiRect;
+
+AAType.h
+struct floatPOINT  把IPPirenct  切换为自己的结构体
+{
+	float x;
+	float y;
+};
+
+typedef struct {
+    int x;
+    int y;
+    int width;
+    int height;
+} IppiRect;
+
+
+
+
+
+AA_GlueAOI::Rect rect_roi; 
+IppiSize roi,
+IppiSize TempRoi = { rect_roi.maxx - rect_roi.minx + 1 ,rect_roi.maxy - rect_roi.miny + 1 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

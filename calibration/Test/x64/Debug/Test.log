@@ -1,0 +1,3 @@
+﻿    正在创建库 D:\other\centreCable\calibration\bin\debug\Testd.lib 和对象 D:\other\centreCable\calibration\bin\debug\Testd.exp
+main.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl APICentringCable::api_realTime(class cv::Mat *,int,int,int,int,int,int &,int &,bool &)" (?api_realTime@APICentringCable@@QEAAHPEAVMat@cv@@HHHHHAEAH1AEA_N@Z)，该符号在函数 main 中被引用
+D:\other\centreCable\calibration\bin\debug\Testd.exe : fatal error LNK1120: 1 个无法解析的外部命令

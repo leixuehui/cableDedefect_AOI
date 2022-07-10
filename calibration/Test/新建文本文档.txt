@@ -1,0 +1,32 @@
+
+void colorReduce(const Mat& image, Mat& outImage, int div)
+{
+	// 创建与原图像等尺寸的图像  
+	outImage.create(image.size(), image.type());
+	int nr = image.rows;
+	// 将3通道转换为1通道  
+	int nl = image.cols*image.channels();
+	//对数换底公式log a(b) = log b/log a
+	int n = static_cast<int>(log(static_cast<double>(div)) / log(2.0));
+	
+	// mask used to round the pixel value  e.g. for div=16, mask= 0xF0 
+	uchar mask = 0xFF << n; 
+	for (int k = 0; k<nr; k++)
+	{
+		// 每一行图像的指针  
+		const uchar* inData = image.ptr<uchar>(k);
+		uchar* outData = outImage.ptr<uchar>(k);
+		for (int i = 0; i<nl; i++)
+		{
+			//进行位运算时要注意加括号，位运算优先级低于+-*/
+			*outData++ = (*inData++ & mask)  + div / 2;
+		}
+	}
+}
+
+
+ 04无胶 圆心（18.744, 4.132)
+
+
+
+

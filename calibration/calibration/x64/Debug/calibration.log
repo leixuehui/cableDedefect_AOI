@@ -1,0 +1,17 @@
+﻿  centringCable.cpp
+d:\other\centrecable\src\centringcable.cpp(3): warning C4305: “初始化”: 从“double”到“float”截断
+d:\other\centrecable\src\centringcable.cpp(326): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(329): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(330): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(430): warning C4305: “初始化”: 从“double”到“float”截断
+d:\other\centrecable\src\centringcable.cpp(492): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\other\centrecable\src\centringcable.cpp(495): warning C4101: “thrMax”: 未引用的局部变量
+d:\other\centrecable\src\centringcable.cpp(628): warning C4305: “=”: 从“int”到“float”截断
+d:\other\centrecable\src\centringcable.cpp(629): warning C4305: “=”: 从“int”到“float”截断
+d:\other\centrecable\src\centringcable.cpp(720): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(1005): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(1074): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(1096): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(1277): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(1282): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\other\centrecable\src\centringcable.cpp(1285): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据

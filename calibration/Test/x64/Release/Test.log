@@ -1,0 +1,10 @@
+﻿  main.cpp
+m:\项目文档\fpcb\centrecable\calibration\test\main.cpp(52): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+m:\项目文档\fpcb\centrecable\calibration\test\main.cpp(45): warning C4101: “moveValue”: 未引用的局部变量
+    正在创建库 M:\项目文档\FPCB\centreCable\calibration\bin\release\Test.lib 和对象 M:\项目文档\FPCB\centreCable\calibration\bin\release\Test.exp
+  正在生成代码
+  280 of 280 functions (100.0%) were compiled.
+    78 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Test.vcxproj -> M:\项目文档\FPCB\centreCable\calibration\bin\release\Test.exe
