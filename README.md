@@ -1,4 +1,5 @@
-# seteo_opencv
-StereoRectify
+###线缆检测
+--曲线拉直
+--HOG+shift定位
+--弱纹理识别
 
-could be replace
